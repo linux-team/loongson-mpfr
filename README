@@ -20,6 +20,10 @@ the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
 MA 02110-1301, USA.
 
 注意：
+	在安装mpfr之前,请先安装gmp
+	你可以通过如下方式获取gmp源代码:
+	git clone https://github.com/embedded-software/loongson-gmp.git
+
 	如果你是mips架构龙芯cpu，系统是debian，请将mpfr安装到/usr目录
 	即配置编译安装过程如下：
 	./configure --prefix=/usr
